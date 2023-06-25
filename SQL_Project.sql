@@ -1,3 +1,5 @@
+--CODE DEMO-PROJECT NORTHWIND DATABASE USING SQL
+
 --1. How many customers do we have in each city?
 select city,count(distinct customerID) Total_customers from dbo.customers
 group by city
